@@ -1,0 +1,1120 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffafa;
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh header start */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #657383;
+    color: white;
+}
+
+.brand-title {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+
+
+.button-green-header {
+    background-color: #4CAF50; /* Green */
+    border-radius: 2px;
+    color: white;
+    padding: 5px 10px 0 10px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 5px 0 5px;
+    cursor: pointer;
+    height:2rem;
+}
+
+.button-green-header:hover{
+    background-color: #50ca54;
+}
+
+@media (max-width: 800px){
+    .navbar-links {
+        display: none;
+    }
+    .navbar-links ul{
+        flex-direction: column;
+    }
+    .navbar-links li {
+        text-align: center;
+    }
+    .navbar-links a {
+        padding: 1rem 10rem;
+    }
+}
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh header end */
+
+
+/* bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb body start */
+.img-navigation {
+    box-shadow: 0 0 -10px #333;
+    background-image: url(potor/aaap04tx3m6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width:14473px;
+    height:373px;
+    font-size: 50px;
+    color:yellow;
+ }
+
+
+.navigation-text {
+    box-shadow: 0 0 10px #333;
+    background-color: #E0FFFF;
+}
+
+.navigation-text-1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.navigation-text-2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.show-motorcycles2 {
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+.show-motorcydles-2 {
+    box-shadow: 0 0 5px #333;
+    border-radius: 5px;
+    background-color: #E0FFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 25px 70px ;
+}
+
+
+.show-motorcydles-1-photor {
+    border-radius: 5px;
+    width: 20rem;
+    height: 18rem;
+}
+.show-motorcycles-1-texy {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.show-motorcycles-1-text1 {
+    font-size: 16px;
+}
+
+.show-motorcycles-1-price {
+    margin-left: 3rem;
+}
+
+.show-motorcycles-1-texy-title {
+    font-size: 3rem;
+
+    
+}
+
+.button-green {
+  background-color: #4CAF50; /*Green*/
+  border-radius: 5px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-green:hover {
+    background-color: #50ca54;
+
+}
+
+.button-navy {
+    background-color: #262693; /* navy */
+    border-radius: 5px;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-navy:hover {
+    background-color: #4343cf;
+}
+
+
+.about-website {
+    border: 1px solid rgb(210, 228, 230);
+    background-color: #E0FFFF;
+    margin: 20px 0;
+    
+
+}
+
+.about-website1 {
+    box-shadow: 0 0 5px #333;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 20px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+}
+
+.about-website-1, .aubot-website-photor {
+    /* border: 1px solid red; */
+    margin: 3rem;
+    
+}
+
+.about-website-1-button {
+    font-size: 25px;
+}
+
+.aubot-website-photor1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.partner {
+    /* border: 1px solid red ;  */
+    background-color: #fff;
+}
+
+.partner1 {
+    /* border: 1px solid red ; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 20px 100px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.partner-1 {
+    box-shadow: 0 0 5px #333;
+    border-radius: 5px;
+    background-color: #E0FFFF;
+    width: 90%;
+    margin: 20px;
+    padding: 30px 0;
+    
+}
+
+
+.partner-1-photor {
+    /* border: 1px solid red; */
+    width: 7rem;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #333;
+    margin: 20px 0 20px 7.5rem; 
+}
+
+.partner-1-text {
+    text-align: center;
+    font-size: 25px;
+}
+
+.information {
+    border: 1px solid rgb(197, 224, 228);
+    background-color: #E0FFFF;
+
+}
+
+
+.information1 {
+    /* border: 1px solid red; */
+    margin: 20px 70px;
+
+}
+
+
+
+.information1-whow-car {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+}
+
+
+.information1-show-car-1, .information1-show-car-2 {
+    box-shadow: 0 0 5px #333;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px 20px 30px 20px;
+    margin: 0 1rem;
+}
+
+
+.information1-show-car-img {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.information1-show-car-title {
+    font-size: 25px;
+}
+
+
+
+
+.testimonials {
+    /* border: 1px solid red; */
+
+}
+
+.testimonials-text {
+    /* border: 1px solid red; */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.testimonials-people {
+    /* border: 1px solid red; */
+    margin: 20px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+
+}
+
+.testimonails-people-first {
+    /* border: 1px solid red; */
+
+    margin-right: 1rem;
+}
+
+.testimonails-people-first-1 {
+    display: flex;
+}
+.testimonails-people-first-1 img {
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.testimonails-people-first-1 p {
+    font-size: 20px;
+}
+
+.testimonials-people-second {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-left: 1rem;
+}
+
+
+
+.photors-page {
+    border: 1px solid rgb(163, 225, 236);
+    background-color: #E0FFFF;
+
+}
+
+.photors-on-page-text {
+    /* border: 1px solid red; */
+    font-size: 35px;
+    text-align: center;
+    padding: 20px ;
+
+}
+
+.photors-on-pages {
+    /* border: 1px solid red; */
+    box-shadow: 0 0 5px #333;
+    margin: 2rem;
+    display: flex;
+}
+
+.photors-on-page-1 {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 0;
+}
+.photors-on-page-1 img {
+    width: 100%;
+}
+
+
+
+@media (max-width: 800px){
+    .img-navigation {
+        box-shadow: 0 0 -10px #333;
+        background-image: url(potor/aaap04tx3m6.jpg);
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: cover;
+        width:1447px;
+        height:250px;
+        font-size: 50px;
+        color:yellow;
+     }
+    .navigation-text-1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .navigation-text-2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .show-motorcydles-1-photor {
+        height: 15rem;
+        width: 13.2rem;
+    }
+    .show-motorcycles-1-texy-title {
+        font-size: 2rem;
+    }
+    .show-motorcycles-1-text-title {
+        font-size: 1.5rem;
+    }
+
+    .show-motorcycles-1-text1 {
+        font-size: 14px;
+    }
+
+
+   .show-motorcydles-2 {
+        background-color: #E0FFFF;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin: 25px 25px;
+    }
+    .show-motorcydles-1-photor {
+        height: 15rem;
+        width: 13.2rem;
+        margin-left: 3rem;
+    }
+    .show-motorcycles-1-price {
+        margin-left: 3rem;
+    }    
+    .about-website1 {
+        /* border: 1px solid red; */
+        background-color: #fff;
+        margin: 20px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 14px;
+    }
+    .button-navy {
+        background-color: #262693;
+        border-radius: 5px;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .about-website-1, .aubot-website-photor {
+        /* border: 1px solid red; */
+        margin: 1rem;
+    }
+    .partner1 {
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin: 20px 20px;
+        justify-content: center;
+        justify-items: center;
+    }
+    .information1 {
+        /* border: 1px solid red; */
+        margin: 20px 20px;
+    }
+    .navigation-text-2 {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .photors-on-page-text {
+        /* border: 1px solid red; */
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 5px;
+    }
+    .photors-on-pages {
+        /* border: 1px solid red; */
+        margin: 1rem;
+        display: flex;
+    }
+    .testimonials-text {
+        /* border: 1px solid red; */
+        padding: 10px 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .testimonails-people-first-1 p {
+        font-size: 16px;
+    }
+    .button-green {
+        background-color: #4CAF50;
+        border-radius: 5px;
+        color: white;
+        padding: 10px 20px;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+    } 
+    
+
+}
+
+
+
+
+
+/* bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb  body end*/
+
+
+/* ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff footer strat */
+
+
+footer {
+    border-top: 3px solid #547296;
+    background-color: #657383;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
+footer a {
+    margin: 1rem;
+    justify-content: center;
+    color: #fff;
+}
+
+/* ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff footer end */
+
+/* rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr  register start */
+
+.register-container {
+    /* background-image: url(potor/testimonials.jpg); */
+    background-color: #d9f0f0;
+    margin: 0 10px;
+    box-shadow: 0 0 10px #333;
+    height: 50rem;
+    filter: none;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.register-text {
+    font-size: 2rem;
+    border: 1px solid #b0c4de;
+    color: #fff;
+    background-color: #5f9ea0;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    height: 3rem;
+
+}
+
+.register-form {
+    /* border: 1px solid red; */
+    border: 1px solid #b0c4de;
+    background-color: #cdcdcd;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    padding: 4rem;
+}
+.register-text, .register-form {
+    box-shadow: 0 0 10px #333;
+    margin: 0 20rem;
+}
+
+.register-form-label {
+    /* border: 1px solid red; */
+    font-size: 18px;
+    margin: 3px 0;
+}
+
+.register-form-submit {
+    font-size: 20px;
+    margin: 1rem;
+    padding: 5px 10px;
+}
+@media (max-width:800px) {
+    .register-text, .register-form {
+        box-shadow: 0 0 10px #333;
+        margin: 0 5rem;
+    }
+    .register-form {
+        border: 1px solid #b0c4de;
+        background-color: #cdcdcd;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+        padding: 4rem 0;
+    }
+    
+}
+
+
+
+/* rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr  register end */
+
+/* ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc contect start */
+.contect-text {
+    /* border: 1px solid red; */
+    box-shadow: 0 0 5px #333;
+    text-align: center;
+    font-size:18px;
+}
+
+.contect-text-1 {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-bottom: none;
+}
+
+.grid-item {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /*ເຮັດໃຫ້ responsive */
+    margin: 20px 100px 100px 100px;
+
+
+}
+
+.grid-item-1 {
+    /* border: 1px solid red; */
+    padding: 10px 80px 10px 10px ;
+    margin: 10px;
+
+}
+
+.item-text {
+    /* border: 1px solid red; */
+    font-size: 20px;
+
+}
+
+.item-text-1 {
+    font-size: 30px;
+
+}
+
+.grid-item-1 p {
+    font-size: 18px;
+}
+
+.contact-map-1 {
+    box-shadow: 0 0 10px #333;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 207, 226);
+    background-color: #E0FFFF;
+    width: 60%;
+    height: 20rem;
+    margin: 0 200px;
+    padding: none;
+
+}
+/* ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc contect end */
+
+/* BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB branch start */
+.branch-text {
+    /* border: 1px solid red; */
+    height: 8rem;
+
+}
+.branch-h {
+    /* border: 1px solid red; */
+    text-align: center;
+    justify-content: center;
+    margin: 20px 100px;
+    padding: 1rem;
+    background-color: rgb(145, 145, 145);
+}
+.branch-table {
+    /* border: solid red; */
+    border: 1px solid rgb(162, 221, 216);
+    background-color: #E0FFFF;
+    height: 27rem;
+
+}
+.branch-table1 {
+    /* border: 1px solid red; */
+    background-color: #fff;
+    margin: 40px 100px;
+}
+
+
+
+/* BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB branch end */ 
+
+
+.pppp {
+    font-size: 3rem;
+    color: red;
+}
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa admin header start  */
+
+.admin-toggle {
+    margin: 0;
+}
+.admin-toggle-button {
+    position: absolute;
+    top: 1.3rem;
+    left: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.admin-toggle-button .ad-bar {
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.shadow-navber {
+    width: 100%;
+    box-shadow: 0 0 10px #333;
+    background-color: #fff;
+}
+
+.admin-navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 4.5rem;
+    align-items: center;
+    
+    color: #000;
+}
+.admin-brand-title {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #000;
+    padding: 0 5px;
+}
+.admin-brand-title:hover {
+    background-color: #e7e7e7;
+}
+
+.admin-navbar-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+}
+.admin-navbar-links i {
+    padding-left: 20px;
+}
+
+.admin-navbar-links .search {
+    margin: 12px 20px 0 0;
+
+}
+
+.admin-navbar-links .button-green {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+}
+
+.admin-navbar-links a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+
+.admin-profile {
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.admin-profile img {
+    border: 1px solid #333;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50px;
+}
+
+#interface .navigation .profile img {
+    widows: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa admin header end  */
+
+/* bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb admin body start */
+.admin-page-body {
+    background: #E5E7EB;
+
+}
+
+
+#menu {
+    background: #fff;
+    box-shadow: 0 0 10px #333;
+    width: 290px;
+    left: 5px;
+    position: fixed;
+    height: 35rem;
+    top: 4.5rem;
+
+}
+
+#menu .logo {
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#menu .logo img {
+    border-radius: 50px;
+    width: 40px;
+    margin-right: 15px;
+}
+
+#menu .items {
+    margin-top: 10px;
+}
+
+#menu .items li {
+    color: #fff;
+    list-style: none;
+    padding: 15px 0;
+    transition: 0.3s ease;
+}
+
+#menu .items li i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 10px 0 25px;
+}
+
+#menu .items li:hover i #menu .items li:hover a {
+    color: #1cca39;
+}
+
+#menu .items li a {
+    text-decoration: none;
+    position: absolute;
+    color: #000;
+    font-weight: 300px;
+    transition: 0.3s ease;
+    padding: 1rem;
+
+}
+#menu .items li a:hover {
+    background-color: rgb(235, 235, 235);
+
+}
+
+.admin-body {
+    margin-top: 10px;
+    margin-left: 300px;
+    width: calc(100%-300px);
+    position: relative;
+}
+
+.values {
+    width: calc(100%-300px);
+    margin-left: 300px;
+    padding: 30px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.values .val-box {
+    background-color: #fff;
+    width: 235px;
+    padding: 16px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.values .val-box i {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.values .val-box:nth-child(1) i {
+    background: #7B74EC;
+}
+
+.values .val-box:nth-child(2) i {
+    background: #5C8AF0;
+}
+
+.values .val-box:nth-child(3) i {
+    background: #E45D99;
+}
+
+.values .val-box:nth-child(4) i {
+    background: #7B74daec;
+}
+
+.values .val-box h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.values .val-box span {
+    font-size: 15px;
+    color: #828997;
+}
+
+.board {
+    margin-top: 10px;
+    width: calc(100%-300px);
+    margin-left: 300px;
+    overflow: auto;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.board img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.board h3 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.board p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #787d8d;
+}
+
+.board .people {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #eef0f3;
+}
+
+thead td {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #F9FAFB;
+    text-align: start;
+    padding: 15px;
+}
+
+tbody tr td {
+    padding: 10px 15px;
+}
+
+.active p {
+    padding: 2px 10px;
+    display: inline-block;
+    border-radius: 40px;
+    color: #2b2b2b;
+}
+
+.edit a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #554cd1;
+    font-weight: 600;
+}
+@media (max-width: 769px) {
+    /* #menu {
+        width: 270px;
+        position: fixed;
+        left: -270px;
+        transition: 0.3s ease;
+    }
+    #menu-btn {
+        display: initial;
+    }
+    #menu.active {
+        left: 0px;
+    }
+    #interface {
+        width: 100%;
+        margin-left: 0px;
+        position: inline-block;
+        transition: 0.3s ease;
+    }
+    #menu.active~#interface {
+        width: calc(100% - 270px);
+        margin-left: 270px;
+        transition: 0.3s ease;
+    }
+    #interface .navigation {
+        width: 100%;
+    } */
+    .values {
+        padding: 30px 30px 0 30px;
+        justify-content: flex-start;
+    }
+    .values .val-box {
+        padding: 16px 20px;
+        margin: 10px 20px 10px 0;
+    }
+    .board {
+        width: 92%;
+        padding: 0;
+        overflow-x: auto;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+}
+
+/* bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb admin body end */
+
