@@ -109,7 +109,7 @@ if(isset($_POST['signup'])){
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Create Account  |  HuzzTech OOP Software</title>
+	<title>Create Account </title>
 	
 	
 </head>
