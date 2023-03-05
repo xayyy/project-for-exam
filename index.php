@@ -2,8 +2,8 @@
 <?php
 
 include 'session_home.php';
-include 'includes/autoloader.inc.php';// ຍັງບໍເຂົ້າໃຈ=============================================
-include 'functions.php';// ຍັງບໍເຂົ້າໃຈ==========================================================
+include 'includes/autoloader.inc.php';
+include 'functions.php';
 
  $users = new Users;
 
